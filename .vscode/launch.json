@@ -1,0 +1,18 @@
+
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run lab1c++",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/main",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "C/C++: g++ build active file"
+        }
+    ]
+}
